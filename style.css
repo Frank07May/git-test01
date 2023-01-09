@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box
+}
+
+
+
+body{
+    background: black;
+    padding: 0 0.5em;
+    font-family: quicksand;
+    font-size: 16px;
+}
+
+form header{
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+form .airforce-logo{
+    margin: auto;
+    display: inline-block;
+}
+
+form .airforce-text{
+    text-align: center;
+    color: white
+}
+
+
+form .airforce-header{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    margin-top: 1.5em;
+    padding: 1em;
+}
+
+form .container{
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 2em;
+}
+
+form .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+}
+
+form .container .container-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form .container .container-info .safety-info{
+    grid-column: 1/3;
+}
+
+form .container-info h3
+{
+    grid-column: 1/4;
+}
+
+form .container-info .safety-info h3
+{
+    grid-column: 1/6;
+}
+
+
+form h3{
+    text-align: center;
+    background-color: blue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: whitesmoke;
+}
+
+
+form .container .container-info .personal-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+form .container-info .personal-info .block{
+    grid-column: 1/4;
+}
+
+form .container .container-info .military-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+form .container .container-info .safety-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+.front-face-img {
+
+    margin: 2em;
+    width:300px;
+    height:375px;
+    max-width: 100%;
+    max-height: 100%;
+    
+    
+    
+}
+
+
+form .container {
+    background-color: black;
+    color: lightblue;
+    font-weight: bolder;
+    margin: 0;
+}
+
+form .idtext button,
+form .container label,
+form .container textarea,
+form .container input{
+    width:100%;
+    padding: 0.5em;
+    font-family: quicksand;
+}
+
+form .idtext button,
+form .more-info button,
+form .new-info button{
+    width: 100%;
+    padding: 0.5em;
+    color: white;
+}
+
+
+
+form .container input,
+form .container textarea
+{
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 2px solid blue;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+form .container-info .safety-info .block{
+    grid-column: 1/5;
+}
+
+form .container-info .safety-info .block textArea{
+    resize: none;
+    color: white;
+}
+
+form .container-info  button{
+    
+    border: none;
+    font-family: quicksand;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+
+
+form .idtext button{
+    background-color: blue;
+    padding: 0.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    
+}
+
+form .idtext button:hover,
+form .idtext button:focus,
+form .container-info button:hover,
+form .container-info button:focus{
+    background-color: cornflowerblue;
+    color: black;
+    font-weight: bolder;
+}
+
+form .new-info,
+form .more-info{
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em; 
+    
+}
+
+/*Estilo para portada de ingreso*/
+
+/*Imagen portada*/
+
+
+form .container-mainframe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-self: center;    
+}
+
+
+form .container-mainframe .portada img{
+    max-height: 400px;
+    max-width: 400px;    
+}
+
+.searchbox,
+.airforce-logo-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 200px;
+  grid-template-areas:
+    ". a a ."
+    ". a a .";
+}
+
+.searchbuttons,
+.portada {
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+}
+
+
+form .idtext input{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
